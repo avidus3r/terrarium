@@ -1,6 +1,8 @@
 'use strict';
 
-const earth = require('./lib/World');
+import World from './lib/World';
+
+const earth = new World();
 earth.create();
 
 // const mars = require('./lib/World');
